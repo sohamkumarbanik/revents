@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { Form } from "semantic-ui-react";
-import Script from "react-load-script";
+import Script from 'react-load-script';
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng

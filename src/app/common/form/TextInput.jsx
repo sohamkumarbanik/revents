@@ -9,6 +9,7 @@ const TextInput = ({
   meta: { touched, error }
 }) => {
   //   const {input, width, type, placeholder, meta: {touched, error}} = {props};
+  // console.log(input.value)
   return (
     <Form.Field error={touched && !!error} width={width}>
       <input {...input} placeholder={placeholder} type={type} />
